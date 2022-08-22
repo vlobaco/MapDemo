@@ -24,3 +24,26 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.map-container {width: 100vw;height: 100vh;position: absolute;}
+
+.marker {
+  // background-color: blue;
+  background-image: url('assets/marker-icons/mapbox-marker-icon-20px-blue.png');
+  background-size: cover;
+  width: 20px;
+  height: 48px;
+  // border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup-content {
+  max-width: 400px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.mapboxgl-popup-close-button {
+  color: black
+}
+
